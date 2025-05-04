@@ -1,8 +1,9 @@
-    
-export default function Home() {
+import HomePage from "./home/HomePage";
+
+export default function App() {
   return (
-   <div>
-    Teste
-   </div>
+    <div>
+      <HomePage />
+    </div>
   );
 }
